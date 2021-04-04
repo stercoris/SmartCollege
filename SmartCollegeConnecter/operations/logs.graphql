@@ -1,0 +1,26 @@
+query GetLogs {
+  Logs {
+    id
+    username
+    message
+    time
+    commandId
+    command {
+      id
+      body
+      username
+      type
+      time
+    }
+  }
+}
+
+mutation SendLogs($log: LogsMessageInput!) {
+  AddLog(log: $log) {
+    id
+    commandId
+    username
+    message
+    time
+  }
+}

@@ -1,0 +1,8 @@
+query GetMessagesSince($id: Int) {
+  Messages(id: $id) {
+    message
+    time
+    userId
+    id
+  }
+}
