@@ -1,0 +1,9 @@
+mutation DeleteChatMessage($id: Int!) {
+	DeleteMessage(id: $id) {
+		id
+		userId
+		message
+		time
+		deleted
+	}
+}

@@ -1,0 +1,13 @@
+schema: http://localhost:7878/graphql
+documents: ./src/**/*.graphql
+generates:
+  ./Api.cs:
+    plugins:
+      - c-sharp-operations
+    config:
+      namespaceName: WrongDoor.Connecter
+      typesafeOperation: true
+      namingConvention: change-case-all#pascalCase
+      scalars:
+        DateTime: System.DateTime
+      useTypeImports: true

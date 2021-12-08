@@ -1,0 +1,30 @@
+subscription SubscribeToNewCommands {
+  newCommand {
+    id
+    body
+    userId
+    type
+    time
+    is_executed
+    deleted
+  }
+}
+
+subscription SubscribeToDeletedCommand {
+  deletedCommand {
+    id
+    body
+    userId
+    type
+    time
+    is_executed
+    deleted
+  }
+}
+
+subscription SubscribeToCommandExecution {
+  newLogMessage {
+    id
+    commandId
+  }
+}
