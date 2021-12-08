@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C40A485B-5CC0-45F2-A98B-748638FF3DC6}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>WrongDoor.Connecter</RootNamespace>
-    <AssemblyName>WrongDoor.Connecter</AssemblyName>
+    <RootNamespace>WrongDoor.Connector</RootNamespace>
+    <AssemblyName>WrongDoor.Connector</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

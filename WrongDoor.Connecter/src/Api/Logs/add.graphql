@@ -1,9 +1,0 @@
-mutation AddLogMessage($log: LogsMessageInput!) {
-  AddLog(log: $log) {
-    id
-    commandId
-    userId
-    message
-    time
-  }
-}

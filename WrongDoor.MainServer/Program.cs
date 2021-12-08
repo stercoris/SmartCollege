@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using WrongDoor.Connecter;
+using WrongDoor.Connector;
 using WrongDoor.MainServer.CommandExutors;
 
 namespace WrongDoor.MainServer

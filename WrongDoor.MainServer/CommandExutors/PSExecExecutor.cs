@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WrongDoor.Connecter;
+using WrongDoor.Connector;
 
 namespace WrongDoor.MainServer.CommandExutors
 {

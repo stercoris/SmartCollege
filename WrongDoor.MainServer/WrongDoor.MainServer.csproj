@@ -91,9 +91,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WrongDoor.Connecter\WrongDoor.Connecter.csproj">
+    <ProjectReference Include="..\WrongDoor.Connector\WrongDoor.Connector.csproj">
       <Project>{c40a485b-5cc0-45f2-a98b-748638ff3dc6}</Project>
-      <Name>WrongDoor.Connecter</Name>
+      <Name>WrongDoor.Connector</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

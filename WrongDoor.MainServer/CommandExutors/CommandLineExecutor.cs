@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Threading.Tasks;
-using WrongDoor.Connecter;
+using WrongDoor.Connector;
 
 namespace WrongDoor.MainServer.CommandExutors
 {

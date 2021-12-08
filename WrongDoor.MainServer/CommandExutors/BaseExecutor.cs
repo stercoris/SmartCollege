@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Command = WrongDoor.Connecter.GetCommandsGQL.Response.CommandSelection;
+using Command = WrongDoor.Connector.GetCommandsGQL.Response.CommandSelection;
 
 namespace WrongDoor.MainServer.CommandExutors
 {

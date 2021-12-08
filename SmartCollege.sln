@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrongDoor.Connecter", "WrongDoor.Connecter\WrongDoor.Connecter.csproj", "{C40A485B-5CC0-45F2-A98B-748638FF3DC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrongDoor.Connector", "WrongDoor.Connector\WrongDoor.Connector.csproj", "{C40A485B-5CC0-45F2-A98B-748638FF3DC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrongDoor.MainServer", "WrongDoor.MainServer\WrongDoor.MainServer.csproj", "{CD3F8D97-73CF-4CFB-AE0C-5F5A8DF96EE9}"
 EndProject

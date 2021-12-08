@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using GraphQL;
 using GraphQL.Client.Abstractions;
 
-namespace WrongDoor.Connecter {
+namespace WrongDoor.Connector {
 
     public class AddChatMessageGQL {
       /// <summary>

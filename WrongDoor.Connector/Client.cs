@@ -2,7 +2,7 @@
 using GraphQL.Client.Serializer.Newtonsoft;
 using System.Net.Http.Headers;
 
-namespace WrongDoor.Connecter
+namespace WrongDoor.Connector
 {
     public static class ClientHandler
     {
