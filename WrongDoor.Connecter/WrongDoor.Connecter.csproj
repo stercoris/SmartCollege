@@ -114,6 +114,22 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="src\Api\Chat\add.graphql" />
+    <None Include="src\Api\Chat\delete.graphql" />
+    <None Include="src\Api\Chat\get.graphql" />
+    <None Include="src\Api\Chat\subscribe.graphql" />
+    <None Include="src\Api\Commands\add.graphql" />
+    <None Include="src\Api\Commands\delete.graphql" />
+    <None Include="src\Api\Commands\get.graphql" />
+    <None Include="src\Api\Commands\subscribe.graphql" />
+    <None Include="src\Api\Logs\add.graphql" />
+    <None Include="src\Api\Logs\delete.graphql" />
+    <None Include="src\Api\Logs\get.graphql" />
+    <None Include="src\Api\Logs\subscribe.graphql" />
+    <None Include="src\Api\Users\add.graphql" />
+    <None Include="src\Api\Users\delete.graphql" />
+    <None Include="src\Api\Users\get.graphql" />
+    <None Include="src\Api\Users\subscribe.graphql" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.example.resx" />
